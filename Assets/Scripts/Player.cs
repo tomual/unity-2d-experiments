@@ -9,12 +9,18 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     bool isGrounded;
     Animator animator;
+    bool isAttacking;
+    bool isDead;
+    BoxCollider2D weaponCollider;
+    int health = 20;
 
     // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        weaponCollider = transform.Find("WeaponCollider").GetComponent<BoxCollider2D>();
+        weaponCollider.enabled = false;
     }
 
     // Update is called once per frame
@@ -24,12 +30,16 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isDead)
+        {
+            return;
+        }
         isGrounded = Physics2D.IsTouchingLayers(GetComponent<Collider2D>(), LayerMask.NameToLayer("Ground"));
         animator.SetBool("Grounded", isGrounded);
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
-        if (horizontal != 0)
+        if (horizontal != 0 && !isAttacking)
         {
             Vector3 target = transform.position + new Vector3(horizontal, 0);
             transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * 3);
@@ -41,18 +51,16 @@ public class Player : MonoBehaviour
             {
                 transform.localScale = new Vector3(-1, 1);
             }
-            Debug.Log("True");
             animator.SetBool("Walking", true);
         } 
         else
         {
-            Debug.Log("False");
             animator.SetBool("Walking", false);
         }
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && !isAttacking)
         {
-            animator.SetTrigger("Attack");
+            StartCoroutine(Attack());
         }
 
         if (Input.GetButtonDown("Jump") && isGrounded)
@@ -64,4 +72,46 @@ public class Player : MonoBehaviour
             rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
         }
     }
+
+    IEnumerator Attack()
+    {
+        isAttacking = true;
+        animator.SetTrigger("Attack");
+        StartCoroutine(TriggerWeaponCollider());
+        yield return new WaitForSeconds(0.7f);
+        weaponCollider.enabled = false;
+        isAttacking = false;
+    }
+    IEnumerator TriggerWeaponCollider()
+    {
+        yield return new WaitForSeconds(0.4f);
+        weaponCollider.enabled = true;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+        if (health <= 0)
+        {
+            isDead = true;
+            UIController.instance.GameOver();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.name == "EnemyWeaponCollider")
+        {
+            Debug.Log(collision.GetComponentInParent<Enemy>().damage);
+        }
+        if (collision.name == "Teleporter")
+        {
+            Teleporter teleporter = collision.GetComponent<Teleporter>();
+            if (Input.GetAxis("Vertical") > 0)
+            {
+                UIController.instance.TriggerTeleport(teleporter.destination);
+            }
+        }
+    }
 }
+
