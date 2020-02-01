@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class TestPlayer : MonoBehaviour
 {
     float horizontal;
     float vertical;
@@ -94,7 +94,7 @@ public class Player : MonoBehaviour
         if (health <= 0)
         {
             isDead = true;
-            UIController.instance.GameOver();
+            TestUIController.instance.GameOver();
         }
     }
 
@@ -102,14 +102,14 @@ public class Player : MonoBehaviour
     {
         if (collision.name == "EnemyWeaponCollider")
         {
-            Debug.Log(collision.GetComponentInParent<Enemy>().damage);
+            Debug.Log(collision.GetComponentInParent<TestEnemy>().damage);
         }
         if (collision.name == "Teleporter")
         {
-            Teleporter teleporter = collision.GetComponent<Teleporter>();
+            TestTeleporter teleporter = collision.GetComponent<TestTeleporter>();
             if (Input.GetAxis("Vertical") > 0)
             {
-                UIController.instance.TriggerTeleport(teleporter.destination);
+                TestUIController.instance.TriggerTeleport(teleporter.destination);
             }
         }
     }

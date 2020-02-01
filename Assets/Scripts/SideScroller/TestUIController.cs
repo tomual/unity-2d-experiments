@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class UIController : MonoBehaviour
+public class TestUIController : MonoBehaviour
 {
-    public static UIController instance;
+    public static TestUIController instance;
     bool isFadingIn;
     bool isFadingOut;
     bool isTeleporting;

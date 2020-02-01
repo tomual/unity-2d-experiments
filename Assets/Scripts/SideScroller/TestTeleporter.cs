@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Teleporter : MonoBehaviour
+public class TestTeleporter : MonoBehaviour
 {
     public string destination;
     void Start()
