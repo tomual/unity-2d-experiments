@@ -88,8 +88,8 @@ ScriptedImporter:
   rigSpriteImportData:
   - name: Layer7
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5181097, y: 0.027901161}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -110,8 +110,8 @@ ScriptedImporter:
     uvTransform: {x: 750, y: 1062}
   - name: Layer4
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.24549514, y: 0.032010842}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -132,8 +132,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 609}
   - name: Layer5
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.3516816, y: 0.15120651}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
