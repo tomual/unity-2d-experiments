@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: 98842f78570482341956ce98836638fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5000280608271357628
+    second: mini-mage_0
+  - first:
+      213: 8616968858974531747
+    second: mini-mage_1
+  - first:
+      213: -777650552433192322
+    second: mini-mage_2
+  - first:
+      213: -111460434808875291
+    second: mini-mage_3
+  - first:
+      213: 7550102745611424556
+    second: mini-mage_4
+  - first:
+      213: -2748538012958170569
+    second: mini-mage_5
+  - first:
+      213: 4610451585432931636
+    second: mini-mage_6
+  - first:
+      213: 5058446365135890395
+    second: mini-mage_7
+  - first:
+      213: 5736526205124300202
+    second: mini-mage_8
+  - first:
+      213: -6368959484708847174
+    second: mini-mage_9
+  - first:
+      213: -6332267970606007082
+    second: mini-mage_10
+  - first:
+      213: 4910967513552077663
+    second: mini-mage_11
+  - first:
+      213: 5981875999805209919
+    second: mini-mage_12
+  - first:
+      213: -1623138333983645618
+    second: mini-mage_13
+  - first:
+      213: 7504579672027368410
+    second: mini-mage_14
+  - first:
+      213: -2563081240761847748
+    second: mini-mage_15
+  - first:
+      213: 7893241350720664801
+    second: mini-mage_0
+  - first:
+      213: -4430743898597033052
+    second: mini-mage_1
+  - first:
+      213: -6988094542104814543
+    second: mini-mage_2
+  - first:
+      213: 6809393557748925883
+    second: mini-mage_3
+  - first:
+      213: -8869401147378870095
+    second: mini-mage_4
+  - first:
+      213: -3185354182440130168
+    second: mini-mage_5
+  - first:
+      213: 6517656246652908630
+    second: mini-mage_6
+  - first:
+      213: -2867731653543034001
+    second: mini-mage_7
+  - first:
+      213: 5459256505368362888
+    second: mini-mage_8
+  - first:
+      213: 2351024925517886155
+    second: mini-mage_9
+  - first:
+      213: -8893633971840140921
+    second: mini-mage_10
+  - first:
+      213: 6223271096893623239
+    second: mini-mage_11
+  - first:
+      213: 5213978632734571227
+    second: mini-mage_12
+  - first:
+      213: 4653166092131356608
+    second: mini-mage_13
+  - first:
+      213: 3864267208516628459
+    second: mini-mage_14
+  - first:
+      213: -6693783075237975643
+    second: mini-mage_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mini-mage_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e43124303d6a8d60800000000000000
+      internalID: 7893241350720664801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4abf46936e5d282c0800000000000000
+      internalID: -4430743898597033052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c1ff8d90d450f90800000000000000
+      internalID: -6988094542104814543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb54571fc53df7e50800000000000000
+      internalID: 6809393557748925883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b85a0806ae89e480800000000000000
+      internalID: -8869401147378870095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889e9df6f395bc3d0800000000000000
+      internalID: -3185354182440130168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6543ad503dd537a50800000000000000
+      internalID: 6517656246652908630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f638c674145c338d0800000000000000
+      internalID: -2867731653543034001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fb8340edc23cb40800000000000000
+      internalID: 5459256505368362888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc23597a6b480a020800000000000000
+      internalID: 2351024925517886155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7893f1ae507739480800000000000000
+      internalID: -8893633971840140921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbcc4f17108d5650800000000000000
+      internalID: 6223271096893623239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdafe9e01f5cb5840800000000000000
+      internalID: 5213978632734571227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_13
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfc16248ed539040800000000000000
+      internalID: 4653166092131356608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befe2d86d82a0a530800000000000000
+      internalID: 3864267208516628459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a92bec12c7ea13a0800000000000000
+      internalID: -6693783075237975643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
