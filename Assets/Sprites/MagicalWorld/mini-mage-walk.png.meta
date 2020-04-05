@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: cc75856fe803a1b45ba79460ebef5dec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2507558173883757856
+    second: mini-mage-walk_0
+  - first:
+      213: 3635220526741249777
+    second: mini-mage-walk_1
+  - first:
+      213: -4847595040404063776
+    second: mini-mage-walk_2
+  - first:
+      213: 6310411251179740451
+    second: mini-mage-walk_3
+  - first:
+      213: -269745919046796677
+    second: mini-mage-walk_4
+  - first:
+      213: -630752748769272530
+    second: mini-mage-walk_5
+  - first:
+      213: -8248071758901036391
+    second: mini-mage-walk_6
+  - first:
+      213: -908561277126822435
+    second: mini-mage-walk_7
+  - first:
+      213: 306086649604633539
+    second: mini-mage-walk_8
+  - first:
+      213: 3171735002771696672
+    second: mini-mage-walk_9
+  - first:
+      213: -7202531445061969930
+    second: mini-mage-walk_10
+  - first:
+      213: -4178113572766546976
+    second: mini-mage-walk_11
+  - first:
+      213: -8124302664582860467
+    second: mini-mage-walk_12
+  - first:
+      213: -7031623759982563269
+    second: mini-mage-walk_13
+  - first:
+      213: 2189848237421801463
+    second: mini-mage-walk_14
+  - first:
+      213: 5785452422756249050
+    second: mini-mage-walk_15
+  - first:
+      213: 7198419577289403119
+    second: mini-mage-walk_16
+  - first:
+      213: 437069074142155843
+    second: mini-mage-walk_17
+  - first:
+      213: 4630829219855959746
+    second: mini-mage-walk_18
+  - first:
+      213: 5353017773588657128
+    second: mini-mage-walk_19
+  - first:
+      213: 4968471811648884234
+    second: mini-mage-walk_20
+  - first:
+      213: 3512093396790794810
+    second: mini-mage-walk_21
+  - first:
+      213: -8944894770465336478
+    second: mini-mage-walk_22
+  - first:
+      213: 1977599074685127785
+    second: mini-mage-walk_23
+  - first:
+      213: 8780394845411404957
+    second: mini-mage-walk_24
+  - first:
+      213: 4211079260699519388
+    second: mini-mage-walk_25
+  - first:
+      213: 6541292024256880877
+    second: mini-mage-walk_26
+  - first:
+      213: 3658122340680101798
+    second: mini-mage-walk_27
+  - first:
+      213: -3937204587212660978
+    second: mini-mage-walk_28
+  - first:
+      213: 1642640178105974847
+    second: mini-mage-walk_29
+  - first:
+      213: -6337211975082727311
+    second: mini-mage-walk_30
+  - first:
+      213: 2149780959695675556
+    second: mini-mage-walk_31
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mini-mage-walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea0800602d533dd0800000000000000
+      internalID: -2507558173883757856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fede901fc5e27230800000000000000
+      internalID: 3635220526741249777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e935c19ef1e9bcb0800000000000000
+      internalID: -4847595040404063776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d52355995139750800000000000000
+      internalID: 6310411251179740451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aba9b048ba14cf0800000000000000
+      internalID: -269745919046796677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d918487bd1f37f0800000000000000
+      internalID: -630752748769272530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ab5c87f66f88d80800000000000000
+      internalID: -8248071758901036391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 84
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd53e2c05542463f0800000000000000
+      internalID: -908561277126822435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c37c24af207f3400800000000000000
+      internalID: 306086649604633539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c21e13e24440c20800000000000000
+      internalID: 3171735002771696672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f71085bfc77b0c90800000000000000
+      internalID: -7202531445061969930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3030897db5406c0800000000000000
+      internalID: -4178113572766546976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_12
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4177cd55cda04f80800000000000000
+      internalID: -8124302664582860467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30fa080277aa6e90800000000000000
+      internalID: -7031623759982563269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_14
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ffaa8f9e57e36e10800000000000000
+      internalID: 2189848237421801463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_15
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 56
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add2f4b635e0a4050800000000000000
+      internalID: 5785452422756249050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea6d88777ce5e360800000000000000
+      internalID: 7198419577289403119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3445d8ad108c01600800000000000000
+      internalID: 437069074142155843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c68309e3a2044040800000000000000
+      internalID: 4630829219855959746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_19
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3ba17bd4db94a40800000000000000
+      internalID: 5353017773588657128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e8fd1e9ce83f440800000000000000
+      internalID: 4968471811648884234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_21
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ad5b526567db030800000000000000
+      internalID: 3512093396790794810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_22
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2631a2d29995dd380800000000000000
+      internalID: -8944894770465336478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_23
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 28
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c8fb271e7d17b10800000000000000
+      internalID: 1977599074685127785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cea64679a3ad970800000000000000
+      internalID: 8780394845411404957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_25
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99620fb642c07a30800000000000000
+      internalID: 4211079260699519388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_26
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de06de5507657ca50800000000000000
+      internalID: 6541292024256880877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af682523e244c230800000000000000
+      internalID: 3658122340680101798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_28
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9623c94d3c59c0800000000000000
+      internalID: -3937204587212660978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f308ac5f984dbc610800000000000000
+      internalID: 1642640178105974847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_30
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178a7ded843bd08a0800000000000000
+      internalID: -6337211975082727311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mini-mage-walk_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a02f8f846e85dd10800000000000000
+      internalID: 2149780959695675556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
