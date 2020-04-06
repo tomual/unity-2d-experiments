@@ -15,6 +15,7 @@ public class MagicalMiniPlayer : MonoBehaviour
     BoxCollider2D weaponCollider;
     int health = 20;
     bool canDoubleJump = false;
+    ParticleSystem effectDoubleJump;
 
     // Start is called before the first frame update
     void Awake()
@@ -24,6 +25,7 @@ public class MagicalMiniPlayer : MonoBehaviour
         animator = transform.Find("body").GetComponent<Animator>();
         weaponCollider = transform.Find("WeaponCollider").GetComponent<BoxCollider2D>();
         weaponCollider.enabled = false;
+        effectDoubleJump = transform.Find("EffectDoubleJump").GetComponent<ParticleSystem>();
     }
 
     void PopulateAnimators()
@@ -98,6 +100,7 @@ public class MagicalMiniPlayer : MonoBehaviour
                 }
                 rb.AddForce(direction * thrust, ForceMode2D.Impulse);
                 canDoubleJump = false;
+                effectDoubleJump.Play();
             }
         }
     }
