@@ -14,6 +14,7 @@ public class MagicalMiniPlayer : MonoBehaviour
     bool isDead;
     BoxCollider2D weaponCollider;
     int health = 20;
+    bool canDoubleJump = false;
 
     // Start is called before the first frame update
     void Awake()
@@ -76,13 +77,28 @@ public class MagicalMiniPlayer : MonoBehaviour
             StartCoroutine(Attack());
         }
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump"))
         {
-
-            float thrust = 6.0f;
-            rb.velocity = new Vector2(0, 0);
-            rb.AddForce(new Vector2(0, thrust));
-            rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
+            if (isGrounded)
+            {
+                float thrust = 6.0f;
+                rb.velocity = new Vector2(0, 0);
+                rb.AddForce(new Vector2(0, thrust));
+                rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
+                StartCoroutine(EnableDoubleJump());
+            } else if (canDoubleJump)
+            {
+                float thrust = 4.0f;
+                rb.velocity = new Vector2(0, 0);
+                rb.AddForce(new Vector2(0, thrust));
+                Vector3 direction = new Vector3(1, 1, 0);
+                if (transform.localScale.x == 1)
+                {
+                    direction = new Vector3(-1, 1, 0);
+                }
+                rb.AddForce(direction * thrust, ForceMode2D.Impulse);
+                canDoubleJump = false;
+            }
         }
     }
 
@@ -99,6 +115,11 @@ public class MagicalMiniPlayer : MonoBehaviour
     {
         yield return new WaitForSeconds(0.4f);
         weaponCollider.enabled = true;
+    }
+    IEnumerator EnableDoubleJump()
+    {
+        yield return new WaitForSeconds(0.4f);
+        canDoubleJump = true;
     }
 
     public void TakeDamage(int damage)
@@ -139,6 +160,10 @@ public class MagicalMiniPlayer : MonoBehaviour
             else
             {
                 animator.speed = 1;
+            }
+            if (name == "Grounded" && boolean == false)
+            {
+                canDoubleJump = true;
             }
         }
     }
