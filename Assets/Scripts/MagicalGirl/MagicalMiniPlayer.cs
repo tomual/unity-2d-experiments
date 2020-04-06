@@ -8,6 +8,7 @@ public class MagicalMiniPlayer : MonoBehaviour
     float vertical;
     Rigidbody2D rb;
     Animator animator;
+    Animator[] animators;
     bool isGrounded;
     bool isAttacking;
     bool isDead;
@@ -18,9 +19,21 @@ public class MagicalMiniPlayer : MonoBehaviour
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = transform.Find("armor").GetComponent<Animator>();
+        PopulateAnimators();
+        animator = transform.Find("body").GetComponent<Animator>();
         weaponCollider = transform.Find("WeaponCollider").GetComponent<BoxCollider2D>();
         weaponCollider.enabled = false;
+    }
+
+    void PopulateAnimators()
+    {
+        animators = new Animator[] {
+            transform.Find("armor-back").GetComponent<Animator>(),
+            transform.Find("body").GetComponent<Animator>(),
+            transform.Find("hair").GetComponent<Animator>(),
+            transform.Find("armor").GetComponent<Animator>()
+        };
+
     }
 
     // Update is called once per frame
@@ -35,7 +48,7 @@ public class MagicalMiniPlayer : MonoBehaviour
             return;
         }
         isGrounded = Physics2D.IsTouchingLayers(GetComponent<Collider2D>(), LayerMask.NameToLayer("Ground"));
-        animator.SetBool("Grounded", isGrounded);
+        SetAnimationBool("Grounded", isGrounded);
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
@@ -45,17 +58,17 @@ public class MagicalMiniPlayer : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * 1.5f);
             if (horizontal > 0)
             {
-                transform.localScale = new Vector3(1, 1);
+                transform.localScale = new Vector3(-1, 1);
             }
             else if (horizontal < 0)
             {
-                transform.localScale = new Vector3(-1, 1);
+                transform.localScale = new Vector3(1, 1);
             }
-            animator.SetBool("Walking", true);
+            SetAnimationBool("Walking", true);
         } 
         else
         {
-            animator.SetBool("Walking", false);
+            SetAnimationBool("Walking", false);
         }
 
         if (Input.GetButtonDown("Fire1") && !isAttacking)
@@ -66,7 +79,7 @@ public class MagicalMiniPlayer : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
 
-            float thrust = 8.0f;
+            float thrust = 6.0f;
             rb.velocity = new Vector2(0, 0);
             rb.AddForce(new Vector2(0, thrust));
             rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
@@ -76,7 +89,7 @@ public class MagicalMiniPlayer : MonoBehaviour
     IEnumerator Attack()
     {
         isAttacking = true;
-        animator.SetTrigger("Attack");
+        SetAnimationTrigger("Attack");
         StartCoroutine(TriggerWeaponCollider());
         yield return new WaitForSeconds(0.7f);
         weaponCollider.enabled = false;
@@ -111,6 +124,31 @@ public class MagicalMiniPlayer : MonoBehaviour
             {
                 TestUIController.instance.TriggerTeleport(teleporter.destination);
             }
+        }
+    }
+
+    void SetAnimationBool(string name, bool boolean)
+    {
+        foreach (var animator in animators)
+        {
+            animator.SetBool(name, boolean);
+            if (name == "Walking" && boolean == false)
+            {
+                animator.speed = 0.5f;
+            } 
+            else
+            {
+                animator.speed = 1;
+            }
+        }
+    }
+
+    void SetAnimationTrigger(string name)
+    {
+        foreach (var animator in animators)
+        {
+            animator.SetTrigger(name);
+            animator.speed = 1f;
         }
     }
 }
