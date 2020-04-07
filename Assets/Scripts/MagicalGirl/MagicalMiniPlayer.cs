@@ -15,7 +15,7 @@ public class MagicalMiniPlayer : MonoBehaviour
     BoxCollider2D weaponCollider;
     int health = 20;
     bool canDoubleJump = false;
-    ParticleSystem effectDoubleJump;
+    Effects effects;
 
     // Start is called before the first frame update
     void Awake()
@@ -25,7 +25,7 @@ public class MagicalMiniPlayer : MonoBehaviour
         animator = transform.Find("body").GetComponent<Animator>();
         weaponCollider = transform.Find("WeaponCollider").GetComponent<BoxCollider2D>();
         weaponCollider.enabled = false;
-        effectDoubleJump = transform.Find("EffectDoubleJump").GetComponent<ParticleSystem>();
+        effects = GameObject.FindGameObjectWithTag("Effects").GetComponent<Effects>();
     }
 
     void PopulateAnimators()
@@ -79,7 +79,7 @@ public class MagicalMiniPlayer : MonoBehaviour
             StartCoroutine(Attack());
         }
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButton("Jump"))
         {
             if (isGrounded)
             {
@@ -88,8 +88,9 @@ public class MagicalMiniPlayer : MonoBehaviour
                 rb.AddForce(new Vector2(0, thrust));
                 rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
                 StartCoroutine(EnableDoubleJump());
-            } else if (canDoubleJump)
+            } else if (canDoubleJump == true)
             {
+                canDoubleJump = false;
                 float thrust = 4.0f;
                 rb.velocity = new Vector2(0, 0);
                 rb.AddForce(new Vector2(0, thrust));
@@ -99,8 +100,7 @@ public class MagicalMiniPlayer : MonoBehaviour
                     direction = new Vector3(-1, 1, 0);
                 }
                 rb.AddForce(direction * thrust, ForceMode2D.Impulse);
-                canDoubleJump = false;
-                effectDoubleJump.Play();
+                effects.Play("DoubleJump", transform.localPosition, (int) transform.localScale.x);
             }
         }
     }
@@ -121,7 +121,8 @@ public class MagicalMiniPlayer : MonoBehaviour
     }
     IEnumerator EnableDoubleJump()
     {
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.2f);
+        Debug.Log("enable!");
         canDoubleJump = true;
     }
 
@@ -163,10 +164,6 @@ public class MagicalMiniPlayer : MonoBehaviour
             else
             {
                 animator.speed = 1;
-            }
-            if (name == "Grounded" && boolean == false)
-            {
-                canDoubleJump = true;
             }
         }
     }
