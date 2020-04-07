@@ -20,4 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Go 2.unity
     guid: 046875df8ce01ed44b9b03c7412a7913
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 8b95348646250c94298fdf3251142fc0,
+      type: 2}

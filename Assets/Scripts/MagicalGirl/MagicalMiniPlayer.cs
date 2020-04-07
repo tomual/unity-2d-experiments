@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 public class MagicalMiniPlayer : MonoBehaviour
 {
@@ -37,6 +38,14 @@ public class MagicalMiniPlayer : MonoBehaviour
             transform.Find("armor").GetComponent<Animator>()
         };
 
+        Addressables.LoadAssetAsync<AnimatorOverrideController>("Assets/Sprites/MagicalWorld/armor-2.overrideController").Completed += OnLoadDone;
+    }
+
+    private void OnLoadDone(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<AnimatorOverrideController> obj)
+    {
+        // In a production environment, you should add exception handling to catch scenarios such as a null result.
+        Debug.Log(obj.Result);
+        animators[3].runtimeAnimatorController = obj.Result;
     }
 
     // Update is called once per frame
