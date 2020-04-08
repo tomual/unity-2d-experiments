@@ -67,14 +67,14 @@ public class MagicalMiniPlayer : MonoBehaviour
         if (horizontal != 0 && !isAttacking)
         {
             Vector3 target = transform.position + new Vector3(horizontal, 0);
-            transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * 1.5f);
+            transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * 2f);
             if (horizontal > 0)
             {
-                transform.localScale = new Vector3(-1, 1);
+                transform.localScale = new Vector3(-2, 2);
             }
             else if (horizontal < 0)
             {
-                transform.localScale = new Vector3(1, 1);
+                transform.localScale = new Vector3(2, 2);
             }
             SetAnimationBool("Walking", true);
         } 
@@ -92,7 +92,7 @@ public class MagicalMiniPlayer : MonoBehaviour
         {
             if (isGrounded)
             {
-                float thrust = 6.0f;
+                float thrust = 7.0f;
                 rb.velocity = new Vector2(0, 0);
                 rb.AddForce(new Vector2(0, thrust));
                 rb.AddForce(transform.up * thrust, ForceMode2D.Impulse);
@@ -100,11 +100,11 @@ public class MagicalMiniPlayer : MonoBehaviour
             } else if (canDoubleJump == true)
             {
                 canDoubleJump = false;
-                float thrust = 4.0f;
+                float thrust = 5.0f;
                 rb.velocity = new Vector2(0, 0);
                 rb.AddForce(new Vector2(0, thrust));
                 Vector3 direction = new Vector3(1, 1, 0);
-                if (transform.localScale.x == 1)
+                if (transform.localScale.x > 0)
                 {
                     direction = new Vector3(-1, 1, 0);
                 }

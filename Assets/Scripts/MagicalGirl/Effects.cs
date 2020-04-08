@@ -38,7 +38,7 @@ public class Effects : MonoBehaviour
     {
         Debug.Log(direction);
         Quaternion rotation = Quaternion.Euler(0, 0, -45);
-        if (direction != 1)
+        if (direction < 0)
         {
             rotation = Quaternion.Euler(0, 0, -135);
         }
