@@ -17,6 +17,7 @@ public class MagicalMiniPlayer : MonoBehaviour
     int health = 20;
     bool canDoubleJump = false;
     Effects effects;
+    GameItem[] inventory;
 
     // Start is called before the first frame update
     void Awake()
@@ -27,6 +28,12 @@ public class MagicalMiniPlayer : MonoBehaviour
         weaponCollider = transform.Find("WeaponCollider").GetComponent<BoxCollider2D>();
         weaponCollider.enabled = false;
         effects = GameObject.FindGameObjectWithTag("Effects").GetComponent<Effects>();
+        InitiatePanelInventory();
+    }
+
+    void InitiatePanelInventory()
+    {
+
     }
 
     void PopulateAnimators()
@@ -187,3 +194,25 @@ public class MagicalMiniPlayer : MonoBehaviour
     }
 }
 
+public enum GameItemType
+{
+    EQUIP = 1,
+    USE = 2,
+    QUEST = 3,
+    MISC = 4
+}
+
+public class GameItem
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public GameItemType Type { get; set; }
+
+}
+
+public class GameBagSlot
+{
+    public int GameItemId { get; set; }
+    public int Quantity { get; set; }
+
+}
