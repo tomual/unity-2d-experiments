@@ -19,6 +19,8 @@ public class MagicalMiniPlayer : MonoBehaviour
     Effects effects;
     GameItem[] inventory;
 
+    public GameObject buttonPrefab;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -28,12 +30,6 @@ public class MagicalMiniPlayer : MonoBehaviour
         weaponCollider = transform.Find("WeaponCollider").GetComponent<BoxCollider2D>();
         weaponCollider.enabled = false;
         effects = GameObject.FindGameObjectWithTag("Effects").GetComponent<Effects>();
-        InitiatePanelInventory();
-    }
-
-    void InitiatePanelInventory()
-    {
-
     }
 
     void PopulateAnimators()
@@ -51,7 +47,6 @@ public class MagicalMiniPlayer : MonoBehaviour
     private void OnLoadDone(UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle<AnimatorOverrideController> obj)
     {
         // In a production environment, you should add exception handling to catch scenarios such as a null result.
-        Debug.Log(obj.Result);
         animators[3].runtimeAnimatorController = obj.Result;
     }
 
