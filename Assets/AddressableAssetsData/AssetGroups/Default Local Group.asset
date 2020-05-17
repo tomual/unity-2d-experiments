@@ -17,12 +17,44 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 7f13916a360b895488edf18ee38a0198
   m_SerializeEntries:
+  - m_GUID: 22080b155807d824285b95db06bc53b6
+    m_Address: Assets/Sprites/SpiceTales/player_ne.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 266c941be63fddc418ead0d404af8cfa
+    m_Address: Assets/Sprites/SpiceTales/player_e.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29302c5b13479bd418366f436f0c2a95
+    m_Address: Assets/Sprites/SpiceTales/player_w.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2f7c31aaf50ae3b41afa0bf054191cbe
+    m_Address: Assets/Sprites/SpiceTales/player_sw.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 400671b3213718a4dac119ac1943aca5
+    m_Address: Assets/Sprites/SpiceTales/player_n.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 92f0fb45414d24148b532699099f5932
+    m_Address: Assets/Sprites/SpiceTales/player_nw.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9341a4aa30679e448a34e826e065ba4a
+    m_Address: Assets/Sprites/SpiceTales/player_se.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   - m_GUID: 9cf4b6df5fc199b43b9beb24294d2498
     m_Address: Assets/Sprites/MagicalWorld/armor-2.overrideController
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: b4a848c9b80af364bba48a20f05252de
     m_Address: Assets/Sprites/MagicalWorld/armor-back-2.overrideController
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2d6519461467864c9e47dd8912529b8
+    m_Address: Assets/Sprites/SpiceTales/player_s.overrideController
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
