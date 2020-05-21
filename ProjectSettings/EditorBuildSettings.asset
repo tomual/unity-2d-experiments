@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 7dc89cd0cc0898148a2da1421f192c2b
   - enabled: 1
-    path: Assets/Scenes/World1.unity
+    path: Assets/Scenes/platformer-sprite-library.unity
     guid: e5dc8b984b2392040b7b8fe37088433f
   - enabled: 1
-    path: Assets/Scenes/Go.unity
+    path: Assets/Scenes/sprite-library.unity
     guid: 75fa9ee582e3d954eb7abb7487604f9b
   - enabled: 1
     path: Assets/Scenes/Go 2.unity
