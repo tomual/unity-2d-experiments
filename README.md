@@ -22,6 +22,10 @@ Unity 2D scenes using a variety of features
 * Enemy roam/attack on near distance
 * Standard platformer movement
 * Teleporter w/ particle effects
+
+
+
+<br>
 <img align="left" width="250" height="250" src="https://github.com/tomual/spice-tales/blob/master/Screenshots/PcgcbyFtMw.gif">
 
 ## sprite-library
@@ -31,6 +35,9 @@ Unity 2D scenes using a variety of features
 * 2D PSD Importer
 * Idle/Walk animation (Timeline animations)
 * Isometric 2D-type movement
+
+
+
 <img align="left" width="250" height="250" src="https://github.com/tomual/spice-tales/blob/master/Screenshots/PGtJcMUDfN.gif">
 
 ## isometric
