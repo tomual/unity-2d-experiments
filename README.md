@@ -2,6 +2,8 @@
 
 Unity 2D scenes using a variety of features
 
+<img align="left" width="250" height="250" src="https://github.com/tomual/spice-tales/blob/master/Screenshots/ciE5xl5fkm.gif">
+
 ## platformer-spritesheet
 * Addressables
 * Spritesheet separate for body/armor
@@ -10,7 +12,8 @@ Unity 2D scenes using a variety of features
 * Particle effects to fire on double jump
 * AnimatorOverrideController
 * 2D Pixel Perfect camera
-![platformer-spritesheet](https://github.com/tomual/spice-tales/blob/master/Screenshots/ciE5xl5fkm.gif)
+
+<img align="left" width="250" height="250" src="https://github.com/tomual/spice-tales/blob/master/Screenshots/PUyH47mssd.gif">
 
 ## platformer-sprite-library
 * 2D Animation Unity Package
@@ -19,7 +22,7 @@ Unity 2D scenes using a variety of features
 * Enemy roam/attack on near distance
 * Standard platformer movement
 * Teleporter w/ particle effects
-![platformer-sprite-library](https://github.com/tomual/spice-tales/blob/master/Screenshots/PUyH47mssd.gif)
+<img align="left" width="250" height="250" src="https://github.com/tomual/spice-tales/blob/master/Screenshots/PcgcbyFtMw.gif">
 
 ## sprite-library
 * Sprite Resolver
@@ -28,9 +31,8 @@ Unity 2D scenes using a variety of features
 * 2D PSD Importer
 * Idle/Walk animation (Timeline animations)
 * Isometric 2D-type movement
-![sprite-library](https://github.com/tomual/spice-tales/blob/master/Screenshots/PcgcbyFtMw.gif)
+<img align="left" width="250" height="250" src="https://github.com/tomual/spice-tales/blob/master/Screenshots/PGtJcMUDfN.gif">
 
 ## isometric
 * Sprites for 80directions
 * Idle animation spritesheet (Multiple)
-![isometric](https://github.com/tomual/spice-tales/blob/master/Screenshots/PGtJcMUDfN.gif)
